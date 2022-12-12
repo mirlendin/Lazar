@@ -27,7 +27,12 @@
                     </div>
                     <div class="col d-flex">
                         <div class="col d-flex align-items-center justify-content-center">
-                            <ul class="header__menu d-flex align-items-center justify-content-center list-unstyled">
+                            <div class="burger__menu" id="hamb">
+                                <span class="burger__line1"></span>
+                                <span class="burger__hiden"></span>
+                                <span class="burger__line3"></span>
+                            </div>
+                            <ul id="menu" class="header__menu d-flex align-items-center justify-content-center list-unstyled">
                                 <li><a class="menu__item m-2" href="#">про нас</a></li>
                                 <li><a class="menu__item m-2" href="#">проєкт</a></li>
                                 <li><a class="menu__item m-2" href="#">потреби</a></li>
@@ -37,6 +42,7 @@
                         <div class="col-1 menu__lang d-flex align-items-center">
                             <a class="menu__lang__item p-2" href="#">UA</a>
                         </div>
+                        <div class="popup" id="popup"></div>
                     </div>
                 </div>
             </div>
@@ -330,6 +336,8 @@
                     </div>
                 </div>
             </footer>
+
+            <script src="../Lazar/script/script.js"></script>
             </body>
         
             </html>
